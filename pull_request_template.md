@@ -1,29 +1,9 @@
-- type: textarea
-  attributes:
-    label: Operating System
-    description: What operating system are you using?
-    placeholder: Example: macOS Big Sur
-    value: operating system
-  validations:
-    required: true
-- type: dropdown
-  attributes:
-    label: Version
-    description: What version of our software are you running?
-    multiple: false
-    options:
-      - label: 1.0.2 (Default)
-      - label: 1.0.3 (Edge)
-  validations:
-    required: true
-- type: checkboxes
-  attributes:
-    label: Code of Conduct
-    description: The Code of Conduct helps create a safe space for everyone. We require
-      that everyone agrees to it.
-    options:
-      - label: I agree to follow this project's [Code of Conduct](link/to/coc)
-        required: true
-- type: markdown
-  attributes:
-    value: "Thanks for completing our form!"
+## Summary
+(How to reproduce the bug?)
+(What was the reason?)
+(What is the solution?)
+## Checklist
+- [ ] I fixed|updated|added unit tests and integration tests for each feature (if applicable).
+- [ ] No error nor warning in the console.
+- [ ] I joined a screenshot of the app before and after the fix.
+[upload the screenshot here]
